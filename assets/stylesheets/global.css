@@ -1,0 +1,259 @@
+p{
+    margin:0;
+}
+
+/*********** 公共样式  宽度以750为标准，950则外加样式强制更改***************/
+.tuanbox{
+    color:#333;
+}
+.tuanbox .bd{
+    position:relative;
+}
+.tuanbox .tuanboxplay{
+    height:450px;
+    border:1px solid #E1E1E1;
+    overflow:hidden;
+}
+
+.tuanbox .taeapp_title{
+    border-bottom:1px solid #E1E1E1;
+    padding-top:12px;
+    padding-bottom:8px;
+    font-family:"微软雅黑";
+    font-size:25px;
+    color:#333333;
+    padding-left:160px;
+    background:#F4F4F4 url(/assets/images/bg2.gif) no-repeat 0 0;
+    height:70px;
+    overflow:hidden;
+}
+.tuanbox .taeapp_title a{
+    line-height:28px;
+    color:#333333;
+}
+.tuanbox .taeapp_title a:hover{
+    text-decoration:none;
+}
+.tuanbox .mybox1{
+    float:left;
+    padding:20px;
+    padding-right:0;
+    overflow:hidden;
+}
+.tuanbox .mytuan{
+    height:130px;
+    overflow:hidden;
+}
+.tuanbox .taeapp_mytime{
+    color:#000;
+    font-size:14px;
+    text-align:center;
+    width:270px;
+    height:26px;
+    margin-left:20px;
+    padding-bottom:5px;
+    background:url(/assets/images/bg3.gif) no-repeat 0 bottom;
+}
+.tuanbox .myinfo{
+    color:#666666;
+    font-size:16px;
+    text-align:center;
+    width:255px;
+    margin-left:30px;
+    padding-bottom:10px;
+}
+.tuanbox .myinfo span{
+    font-size:16px;
+    font-weight:700;
+}
+.tuanbox .taeapp_myother{
+    margin-left:20px;
+    padding:10px 0px;
+    width:255px;
+    color:#FFF;
+    background:url(/assets/images/bg3.gif) no-repeat 0 bottom;
+    padding-left:35px;
+}
+.taeapp_sharetuan{
+    clear:both;
+    overflow:hidden;
+    padding-top:5px;
+    margin-left:20px;
+    width:255px;
+}
+.taeapp_sharetuan ul{
+    padding:0;
+    margin:0;
+}
+.taeapp_sharetuan li{
+    margin-right:3px;
+    height:24px;
+    float:left;
+    overflow:hidden;
+    width:20px;
+    margin-left:0;
+    font-size:12px;
+    line-height: 24px;
+}
+.taeapp_sharetuan li input{
+    font-size:12px;
+    color:#3333FF;
+    background:url(/assets/images/share_tuan.gif) no-repeat;
+    border-bottom-width:0px;
+    width:20px;
+    cursor:pointer;
+    height:24px;
+    border-right-width:0px;
+    border-top-width:0px;
+    border-left-width:0px;
+    overflow:hidden;
+}
+.taeapp_sharetuan li input.taobao{
+    background-position:0 0;
+}
+.taeapp_sharetuan li input.kaixin001{
+    background-position:-25px 0px;
+}
+.taeapp_sharetuan li input.renren{
+    background-position:-50px 0px;
+}
+.taeapp_sharetuan li input.qq{
+    background-position:-75px 0px;
+}
+.taeapp_sharetuan li input.sina{
+    background-position:-100px 0px;
+}
+.tuanbox .d1{
+    width:283px;
+    height:70px;
+}
+.tuanbox .d1 .tuanprice{
+    float:left;
+    color:#FFF;
+    font-family:Arial;
+    line-height:70px;
+    font-size:26px;
+    font-weight:bold;
+    text-align:center;
+    text-shadow: 1px 1px 1px #666;
+}
+.tuanbox .d1 .tuanbtn{
+    float:right;
+    width:82px;
+    display:block;
+    margin-right:10px;
+}
+.tuanbox .d1 .tuanbtn a{
+    float:right;
+    width:82px;
+    height:70px;
+    display:block;
+}
+.tuanbox .d1 .tuanbtn a:hover{
+    text-decoration:none;
+}
+.tuanbox .d2{
+    width:283px;
+    height:55px;
+    padding-left:35px;
+    float:left;
+    font-size:16px;
+    padding-top:2px;
+    font-family:Arial;
+}
+
+
+.tuanbox .d2 p{
+    float:left;
+    width:81px;
+    text-align:center;
+    line-height:60px;
+}
+.tuanbox .d2 .youhui{
+    padding:0;
+    margin:0;
+}
+.tuanbox .mybox2{
+    margin-top:20px;
+    float:left;
+    width:322px;
+    height:322px;
+}
+.tuanbox .mybox2 .pic{
+    background-position:center center;
+    width:310px;
+    padding:2px;
+    height:310px;
+    margin:auto;
+    background-repeat:no-repeat;
+}
+.tuanbox .mybox2 a{
+    height:310px;
+    width:310px;
+    display:block;
+    text-decoration:none;
+    overflow:hidden;
+}
+.tuanbox .mybox3{
+    width:250px;
+    float:right;
+    padding:20px;
+}
+.tuanbox .ks-switchable-content{
+    width:660px;
+    margin-bottom:10px;
+    float:left;
+}
+.tuanbox .ks-switchable-nav{
+    position:absolute;
+    top:108px;
+    right:13px;
+    overflow:hidden;
+}
+.tuanbox .ks-switchable-nav li{
+    margin:0;
+    cursor:pointer;
+    display:block;
+    margin-left:5px;
+    height:80px;
+    padding-left:8px;
+    padding-top:2px;
+    overflow:hidden;
+}
+.tuanbox .ks-switchable-nav li.ks-active{
+    cursor:default;
+    color:#353535;
+}
+.tuanbox .tuanlist{
+    height:65px;
+    padding:5px;
+}
+.tuanbox .tuanlistimg{
+    float:left;
+    margin-right:5px;
+    clear:both;
+    display:table-cell;
+    vertical-align:middle;
+    text-align:center;
+    font-size:45px;
+    height:60px;
+}
+.tuanbox .tuanlistinfo{
+    float:left;
+    width:160px;
+    height:37px;
+    overflow:hidden;
+    color:#666666;
+}
+.tuanbox .tuanprice{
+    float:left;
+    width:160px;
+    color:#CC0000;
+    font-family:"微软雅黑";
+}
+
+.tuanbox .time-count .value {
+    font-size:18px;
+    color:#333;
+    padding:0px 2px;
+}

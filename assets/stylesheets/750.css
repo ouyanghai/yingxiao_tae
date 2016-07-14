@@ -1,0 +1,29 @@
+.tuanbox{
+    width:750px;
+}
+.tuanbox .tuanboxplay{
+    width:748px;
+    background:url(/assets/images/bg1.gif) no-repeat 0 0;
+}
+.tuanbox .mybox1{
+    width:300px;
+}
+.tuanbox .mytuan{
+    width:300px;
+}
+.tuanbox .ks-switchable-nav{
+    width:87px;
+}
+.tuanbox .ks-switchable-nav li{
+    width:250px;
+    background:url(/assets/images/off.gif) no-repeat;
+}
+.tuanbox .ks-switchable-nav li.ks-active{
+    background:url(/assets/images/on.gif) no-repeat;
+}
+.tuanbox .tuanlist{
+    width:65px;
+}
+.tuanbox .tuanlistimg{
+    width:50px;
+}
